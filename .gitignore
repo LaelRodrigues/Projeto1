@@ -1,0 +1,8 @@
+# Ignora todos os arquivos objetos
+build/*
+
+# Ignora todos os binarios/executaveis
+bin/*
+
+# Ignora o diretorio de documentacao
+doc/*
