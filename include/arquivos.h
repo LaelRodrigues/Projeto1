@@ -118,7 +118,7 @@ void gerarEstatisticas(T **A, T**B, int tam) {
 	md = media(SEQUENCIA, tempos);
 	desv = desv_padrao(SEQUENCIA, tempos);
 
-	arqIterativo << tam << " " << maior << " " << menor " ";
+	arqIterativo << tam << " " << maior << " " << menor << " ";
 	arqIterativo << md << " " << desv << endl;
 
 	arqIterativo.close();
