@@ -1,19 +1,12 @@
 /**
- * @file	matriz.h
+ * @file	multmatrizes.h
  * @brief	implementacao das funcaes que realizam a multiplicacao 
  					entre duas matrizes e gera uma matriz resultando 
  * @author	Lael Rodrigues(laelrodrigues7@gmail.com)
  * @since	25/04/2017
- * @date	25/04/2017
+ * @date	01/04/2017
  */
 
-/**
-* @brief Funcao que multiplica duas matrizes quadradas de dimensao n x n de forma iterativa
-* @param A Matriz de entrada
-* @param B Matriz de entrada
-* @param n Dimensao das matrizes de entrada
-* @return Matriz produto resultante da multiplicacao
-*/
 
 #ifndef MULTMATRIZ_H
 #define MULTMATRIZ_H
@@ -25,7 +18,13 @@ using std::endl;
 #include <cstdlib>
 using std::exit;
 
-
+/**
+* @brief Funcao que multiplica duas matrizes quadradas de dimensao n x n de forma iterativa
+* @param A Matriz de entrada
+* @param B Matriz de entrada
+* @param n Dimensao das matrizes de entrada
+* @return Matriz produto resultante da multiplicacao
+*/
 template <typename T>
 T** multiplicaI(T** A, T** B, int n){
 	

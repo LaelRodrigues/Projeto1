@@ -57,7 +57,7 @@ void lerMatriz(ifstream &entrada, T **matriz, int n) {
 /**
  * @brief Funcao que imprimi em um arquivo os elementos
  *				de uma matriz
- * @param entrada Variavel que referencia o arquivo de entrada
+ * @param saida Variavel que referencia o arquivo de saida
  * @param matriz Matriz que armazenara os dados lidos
  * @param n Dimensoes da matriz
  */
@@ -90,9 +90,9 @@ void testaArquivo(T &arquivo) {
 /**
  * @brief Funcao para gerar estatisticas em relacao ao tempo
  *				de execucao dos algoritmos recursivo e iterativo
- * @param entrada Variavel que referencia o arquivo de entrada
- * @param matriz Matriz que armazenara os dados lidos
- * @param n Dimensoes da matriz
+ * @param A Matriz de entrada
+ * @param B Matriz de entrada 
+ * @param tam Dimensao das matrizes
  */
 template <typename T>
 void gerarEstatisticas(T **A, T**B, int tam) {
